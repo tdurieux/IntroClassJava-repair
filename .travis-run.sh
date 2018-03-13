@@ -31,6 +31,11 @@ for D in *; do
 done
 
 cd $HOME/build/tdurieux/IntroClassJava-repair/results;
+
+python src/generateReadme.py
+git add README.md
+git commit -m "update readme.md"
+
 git pull --rebase;
 
 git push
