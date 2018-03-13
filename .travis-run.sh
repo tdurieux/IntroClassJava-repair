@@ -21,12 +21,16 @@ for D in *; do
 
 		
 		cd $HOME/build/tdurieux/IntroClassJava-repair/results;
+
+		git add $HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/
 		git commit -m "results $BUG/${D}"
 		
 		cd cwd
 		cd ..;
 	fi
 done
+
 cd $HOME/build/tdurieux/IntroClassJava-repair/results;
 git pull --rebase;
+
 git push
