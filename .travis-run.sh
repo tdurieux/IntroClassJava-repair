@@ -6,14 +6,20 @@ for D in *; do
 		cd ${D};
 
 		mvn test || true;
+		
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:nopol;
+		d=$HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/
+		test -d "$d" || mkdir -p "$d" && cp -Rf target/nopol "$d"
+
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:jGenProg;
+		d=$HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jGenProg
+		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/* "$d"
+
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:jKali;
+		d=$HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jKali
+		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/* "$d"
 
-		cp -Rf target/nopol $HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/nopol
-		cp -Rf target/jGenProg $HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jGenProg
-		cp -Rf target/jKali $HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jKali
-
+		ls $HOME
 		cd $HOME/tdurieux/IntroClassJava-repair/results;
 		git commit -m "results $BUG/${D}"
 		

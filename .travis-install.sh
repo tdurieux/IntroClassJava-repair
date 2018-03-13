@@ -8,7 +8,7 @@ if [ ! -d "maven-repair" ]; then
 	git clone https://github.com/Spirals-Team/maven-repair.git;
 fi
 
-git clone --quiet --branch=results https://${GITHUB_PASSWORD}@github.com/tdurieux/IntroClassJava-repair.git results > /dev/null;
+git clone --branch=results https://${GITHUB_AUTH_TOKEN}@github.com/tdurieux/IntroClassJava-repair.git results;
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis"
 
