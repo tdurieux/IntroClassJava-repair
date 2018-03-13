@@ -83,7 +83,7 @@
  grade bfad6d 000 |   |   | 1 AV |
  grade c9d718 000 |   |   |
  grade ca94e3 000 |   |   | 0 AV |
- grade cb243b 000 |   |   |
+ grade cb243b 000 |   |   | 0 AV |
  grade cd2d9b 003 |   |   |
  grade d009aa 000 |   |   | 0 AV |
  grade d6364e 007 |   |   |
