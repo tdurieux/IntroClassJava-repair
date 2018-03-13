@@ -1,0 +1,111 @@
+Picked up _JAVA_OPTIONS: -Xmx2048m -Xms512m
+introclassJava.digits_e79f832f_000WhiteboxTest#test2
+.E
+Time: 1.023
+There was 1 failure:
+1) test2(introclassJava.digits_e79f832f_000WhiteboxTest)
+java.lang.Exception: test timed out after 1000 milliseconds
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:341)
+	at sun.util.locale.provider.JRELocaleProviderAdapter.createLanguageTagSet(JRELocaleProviderAdapter.java:366)
+	at sun.util.locale.provider.JRELocaleProviderAdapter.getLanguageTagSet(JRELocaleProviderAdapter.java:349)
+	at sun.util.locale.provider.JRELocaleProviderAdapter.getCurrencyNameProvider(JRELocaleProviderAdapter.java:224)
+	at sun.util.locale.provider.JRELocaleProviderAdapter.getLocaleServiceProvider(JRELocaleProviderAdapter.java:100)
+	at sun.util.locale.provider.LocaleServiceProviderPool.<init>(LocaleServiceProviderPool.java:133)
+	at sun.util.locale.provider.LocaleServiceProviderPool.getPool(LocaleServiceProviderPool.java:111)
+	at java.util.Currency.getSymbol(Currency.java:506)
+	at java.text.DecimalFormatSymbols.initialize(DecimalFormatSymbols.java:648)
+	at java.text.DecimalFormatSymbols.<init>(DecimalFormatSymbols.java:113)
+	at sun.util.locale.provider.DecimalFormatSymbolsProviderImpl.getInstance(DecimalFormatSymbolsProviderImpl.java:85)
+	at java.text.DecimalFormatSymbols.getInstance(DecimalFormatSymbols.java:180)
+	at sun.util.locale.provider.NumberFormatProviderImpl.getInstance(NumberFormatProviderImpl.java:178)
+	at sun.util.locale.provider.NumberFormatProviderImpl.getNumberInstance(NumberFormatProviderImpl.java:149)
+	at java.text.NumberFormat.getInstance(NumberFormat.java:875)
+	at java.text.NumberFormat.getInstance(NumberFormat.java:861)
+	at java.text.NumberFormat.getNumberInstance(NumberFormat.java:469)
+	at java.util.Scanner.useLocale(Scanner.java:1186)
+	at java.util.Scanner.<init>(Scanner.java:540)
+	at java.util.Scanner.<init>(Scanner.java:702)
+	at introclassJava.digits_e79f832f_000WhiteboxTest.test2(digits_e79f832f_000WhiteboxTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test1
+.E
+Time: 0.097
+There was 1 failure:
+1) test1(introclassJava.digits_e79f832f_000WhiteboxTest)
+org.junit.ComparisonFailure: expected:<Enteraninteger>[0]That'sall,haveaniced...> but was:<Enteraninteger>[]That'sall,haveaniced...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at introclassJava.digits_e79f832f_000WhiteboxTest.test1(digits_e79f832f_000WhiteboxTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test4
+.
+Time: 0.022
+
+OK (1 test)
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test3
+.
+Time: 0.011
+
+OK (1 test)
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test6
+.
+Time: 0.025
+
+OK (1 test)
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test5
+.
+Time: 0.012
+
+OK (1 test)
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test8
+.
+Time: 0.022
+
+OK (1 test)
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test7
+.
+Time: 0.038
+
+OK (1 test)
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test9
+.
+Time: 0.018
+
+OK (1 test)
+
+introclassJava.digits_e79f832f_000WhiteboxTest#test10
+.
+Time: 0.019
+
+OK (1 test)
+
