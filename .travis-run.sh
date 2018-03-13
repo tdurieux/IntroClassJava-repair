@@ -9,7 +9,7 @@ for D in *; do
 		
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:nopol;
 		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/
-		test -d "$d" || mkdir -p "$d" && cp -Rf target/nopol "$d"
+		test -d "$d" || mkdir -p "$d" && cp -Rf target/nopol/output.json "$d"
 
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:jGenProg;
 		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jGenProg
