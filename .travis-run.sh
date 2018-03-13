@@ -8,15 +8,15 @@ for D in *; do
 		mvn test || true;
 		
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:nopol;
-		d=$HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/
+		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/
 		test -d "$d" || mkdir -p "$d" && cp -Rf target/nopol "$d"
 
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:jGenProg;
-		d=$HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jGenProg
+		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jGenProg
 		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/* "$d"
 
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:jKali;
-		d=$HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jKali
+		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jKali
 		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/* "$d"
 
 		
@@ -27,6 +27,6 @@ for D in *; do
 		cd ..;
 	fi
 done
-cd $HOME/tdurieux/IntroClassJava-repair/results;
+cd $HOME/build/tdurieux/IntroClassJava-repair/results;
 git pull --rebase;
 git push
