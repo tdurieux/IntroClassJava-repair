@@ -1,9 +1,11 @@
 if [ ! -d "IntroClassJava" ]; then
-	git clone https://github.com/Spirals-Team/IntroClassJava.git || true;
+	echo "clone IntroClassJava"
+	git clone https://github.com/Spirals-Team/IntroClassJava.git;
 fi
 
 if [ ! -d "maven-repair" ]; then
-	git clone https://github.com/Spirals-Team/maven-repair.git || true;
+	echo "clone maven-repair"
+	git clone https://github.com/Spirals-Team/maven-repair.git;
 fi
 
 cd maven-repair;
