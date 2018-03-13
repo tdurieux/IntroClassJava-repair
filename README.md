@@ -163,6 +163,7 @@
  smallest f2997e 000 |   |   | 1 AV |
  smallest f8d57d 000 |   |   | 2 AV |
  syllables 2af3c4 003 |   |   | 0 AV |
+ syllables 36d800 003 |   |   | 0 AV |
  syllables 38eb99 003 |   |   | 0 AV |
  syllables 489253 007 |   |   |
  syllables 818f8c 007 |   |   | 0 AV |
