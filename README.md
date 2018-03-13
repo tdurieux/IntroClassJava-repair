@@ -86,7 +86,7 @@
  grade cb243b 000 |   |   | 0 AV |
  grade cd2d9b 003 |   |   |
  grade d009aa 000 |   |   | 0 AV |
- grade d6364e 007 |   |   |
+ grade d6364e 007 |   |   | 0 AV |
  grade d8b262 000 |   |   | 0 AV |
  grade dc11fb 000 |   |   | 0 AV |
  grade dccb12 001 |   |   |
