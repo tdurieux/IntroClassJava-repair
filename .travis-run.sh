@@ -13,11 +13,11 @@ for D in *; do
 
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:jGenProg;
 		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jGenProg
-		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/* "$d"
+		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/*/astor_output.json "$d"
 
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:jKali;
 		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jKali
-		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/* "$d"
+		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/*/astor_output.json "$d"
 
 		
 		cd $HOME/build/tdurieux/IntroClassJava-repair/results;
