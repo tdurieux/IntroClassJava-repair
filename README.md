@@ -1,7 +1,7 @@
  Bug Id | jGenProg | jKali | DynaMoth 
 ------- | -------- | ----- | ---------
  checksum 08c7ea 006 |   |   | 0 AV |
- checksum 2c1556 003 |   |   |
+ checksum 2c1556 003 |   |   | 0 AV |
  checksum 36d800 003 |   |   | 0 AV |
  checksum 659a73 003 |   |   | 0 AV |
  checksum a0e3fd 000 |   |   | 0 AV |
