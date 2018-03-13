@@ -131,6 +131,7 @@
  median fcf701 000 |   |   | 0 AV |
  median fe9d5f 000 |   |   | 0 AV |
  smallest 15cb07 007 |   |   | 2 AV |
+ smallest 1b31fa 003 |   |   | 1 AV |
  smallest 2694af 000 |   |   | 1 AV |
  smallest 30074a 000 |   |   | 0 AV |
  smallest 346b1d 002 |   |   | 0 AV |
@@ -158,6 +159,7 @@
  smallest d009aa 001 |   |   | 1 AV |
  smallest dedc2a 000 |   |   | 2 AV |
  smallest e9c620 000 |   |   | 1 AV |
+ smallest ea67b8 003 |   |   | 2 AV |
  smallest f2997e 000 |   |   | 1 AV |
  smallest f8d57d 000 |   |   | 2 AV |
  syllables 2af3c4 003 |   |   | 0 AV |
