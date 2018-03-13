@@ -8,7 +8,7 @@ for D in *; do
 		mvn test || true;
 		
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:nopol;
-		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/
+		d=$HOME/build/tdurieux/IntroClassJava-repair/results/$BUG/${D}/nopol
 		test -d "$d" || mkdir -p "$d" && cp -Rf target/nopol/output.json "$d"
 
 		mvn fr.inria.gforge.spirals:repair-maven-plugin:jGenProg;
