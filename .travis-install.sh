@@ -12,6 +12,11 @@ git clone --branch=results https://${GITHUB_AUTH_TOKEN}@github.com/tdurieux/Intr
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis"
 
+pwd
+ls $HOME/tdurieux
+ls results
+
+
 cd maven-repair;
 mvn install -q -DskipTests
 cd ..

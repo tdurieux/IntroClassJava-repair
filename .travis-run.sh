@@ -19,7 +19,7 @@ for D in *; do
 		d=$HOME/tdurieux/IntroClassJava-repair/results/$BUG/${D}/jKali
 		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/* "$d"
 
-		ls $HOME
+		
 		cd $HOME/tdurieux/IntroClassJava-repair/results;
 		git commit -m "results $BUG/${D}"
 		
