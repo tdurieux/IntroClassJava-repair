@@ -13,8 +13,4 @@ script:
   - cd $BUG
   - mvn fr.inria.gforge.spirals:repair-maven-plugin:nopol
 
-cache:
-  directories:
-  - IntroClassJava
-  - nopol
-  - maven-repair
+
