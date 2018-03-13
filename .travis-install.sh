@@ -8,8 +8,12 @@ if [ ! -d "maven-repair" ]; then
 	git clone https://github.com/Spirals-Team/maven-repair.git;
 fi
 
+git clone --quiet --branch=results https://${GITHUB_PASSWORD}@github.com/tdurieux/IntroClassJava-repair.git results > /dev/null;
+git config --global user.email "travis@travis-ci.org"
+git config --global user.name "Travis"
+
 cd maven-repair;
-mvn install -DskipTests
+mvn install -q -DskipTests
 cd ..
 
 
