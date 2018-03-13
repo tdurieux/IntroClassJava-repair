@@ -172,6 +172,7 @@
  syllables ca5057 003 |   |   | 1 AV |
  syllables d5059e 000 |   |   | 0 AV |
  syllables f8d57d 002 |   |   | 0 AV |
+ syllables fcf701 002 |   |   | 0 AV |
 
 
 ## digits c5d8f9 003 jGenProg 
