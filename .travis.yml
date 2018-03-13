@@ -9,8 +9,9 @@ env:
 
 script: 
   - ./.travis-install.sh 
-  - cd IntroClassJava
+  - cd IntroClassJava/dataset
   - cd $BUG
+  - mvn test || true
   - mvn fr.inria.gforge.spirals:repair-maven-plugin:nopol
 
 
