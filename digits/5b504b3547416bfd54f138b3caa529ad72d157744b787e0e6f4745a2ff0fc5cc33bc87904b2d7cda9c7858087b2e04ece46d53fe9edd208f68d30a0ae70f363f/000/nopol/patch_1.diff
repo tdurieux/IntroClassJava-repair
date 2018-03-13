@@ -1,0 +1,7 @@
+--- /home/travis/build/tdurieux/IntroClassJava-repair/IntroClassJava/dataset/digits/5b504b3547416bfd54f138b3caa529ad72d157744b787e0e6f4745a2ff0fc5cc33bc87904b2d7cda9c7858087b2e04ece46d53fe9edd208f68d30a0ae70f363f/000/src/main/java/introclassJava/digits_5b504b35_000.java
++++ /home/travis/build/tdurieux/IntroClassJava-repair/IntroClassJava/dataset/digits/5b504b3547416bfd54f138b3caa529ad72d157744b787e0e6f4745a2ff0fc5cc33bc87904b2d7cda9c7858087b2e04ece46d53fe9edd208f68d30a0ae70f363f/000/src/main/java/introclassJava/digits_5b504b35_000.java
+@@ -74,3 +74,3 @@
+             }
+-            if (input.value > 0) {
++            if (input != null) {
+                 output += (String.format ("%d\n", inter.value * 10 / n.value));
