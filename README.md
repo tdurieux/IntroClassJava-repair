@@ -77,7 +77,7 @@
  grade 9c9308 000 |   |   | 0 AV |
  grade a0e3fd 010 |   |   |
  grade aaceaf 003 |   |   |
- grade af81ff 000 |   |   |
+ grade af81ff 000 |   |   | 0 AV |
  grade b1924d 000 |   |   | 0 AV |
  grade b6fd40 000 |   |   | 0 AV |
  grade bfad6d 000 |   |   | 1 AV |
