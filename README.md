@@ -53,6 +53,7 @@
  grade 1b31fa 003 |   |   |
  grade 1c2bb3 000 |   |   |
  grade 295afd 010 |   |   |
+ grade 30074a 004 |   |   | 0 AV |
  grade 317aa7 000 |   |   |
  grade 36d800 000 |   |   |
  grade 387be3 000 |   |   |
@@ -60,6 +61,7 @@
  grade 3cf6d3 010 |   |   |
  grade 489253 000 |   |   | 0 AV |
  grade 48b829 000 |   |   |
+ grade 5b504b 000 |   |   | 0 AV |
  grade 68ea5d 000 |   |   |
  grade 6e464f 000 |   |   |
  grade 75c98d 003 |   |   |
@@ -72,15 +74,17 @@
  grade 93f87b 015 |   |   | 0 AV |
  grade 953627 010 |   |   |
  grade 98d873 004 |   |   | 0 AV |
+ grade 9c9308 000 |   |   | 0 AV |
  grade a0e3fd 010 |   |   |
  grade aaceaf 003 |   |   |
  grade af81ff 000 |   |   |
- grade b1924d 000 |   |   |
+ grade b1924d 000 |   |   | 0 AV |
  grade b6fd40 000 |   |   |
  grade bfad6d 000 |   |   |
  grade c9d718 000 |   |   |
  grade ca94e3 000 |   |   |
  grade cb243b 000 |   |   |
+ grade cd2d9b 003 |   |   |
  grade d009aa 000 |   |   |
  grade d6364e 007 |   |   |
  grade d8b262 000 |   |   | 0 AV |
@@ -126,6 +130,46 @@
  median e9c620 000 |   |   | 0 AV |
  median fcf701 000 |   |   | 0 AV |
  median fe9d5f 000 |   |   | 0 AV |
+ smallest 15cb07 007 |   |   | 2 AV |
+ smallest 2694af 000 |   |   | 1 AV |
+ smallest 30074a 000 |   |   | 0 AV |
+ smallest 346b1d 002 |   |   | 0 AV |
+ smallest 36d800 003 |   |   | 2 AV |
+ smallest 3b2376 003 |   |   | 0 AV |
+ smallest 3cf6d3 003 |   |   | 1 AV |
+ smallest 48b829 000 |   |   | 0 AV |
+ smallest 5a5683 000 |   |   | 0 AV |
+ smallest 68eb0b 000 |   |   | 2 AV |
+ smallest 6aaeaf 000 |   |   | 0 AV |
+ smallest 769cd8 002 |   |   | 0 AV |
+ smallest 818f8c 002 |   |   | 0 AV |
+ smallest 846021 007 |   |   | 1 AV |
+ smallest 88394f 002 |   | 1 | 1 AV |
+ smallest 9013bd 000 |   |   | 1 AV |
+ smallest 908348 005 |   |   | 1 AV |
+ smallest 90a14c 000 |   |   | 0 AV |
+ smallest 93f87b 000 |   |   | 1 AV |
+ smallest 953627 009 |   |   | 0 AV |
+ smallest 97f6b1 003 |   |   | 2 AV |
+ smallest af81ff 000 |   |   | 0 AV |
+ smallest c868b3 000 |   |   | 0 AV |
+ smallest c9d718 000 |   |   | 0 AV |
+ smallest cb243b 000 |   |   | 0 AV |
+ smallest d009aa 001 |   |   | 1 AV |
+ smallest dedc2a 000 |   |   | 2 AV |
+ smallest e9c620 000 |   |   | 1 AV |
+ smallest f2997e 000 |   |   | 1 AV |
+ smallest f8d57d 000 |   |   | 2 AV |
+ syllables 2af3c4 003 |   |   | 0 AV |
+ syllables 38eb99 003 |   |   | 0 AV |
+ syllables 489253 007 |   |   |
+ syllables 818f8c 007 |   |   |
+ syllables 90a14c 000 |   |   | 0 AV |
+ syllables 99cbb4 003 |   |   | 0 AV |
+ syllables b6fd40 000 |   |   | 0 AV |
+ syllables ca5057 003 |   |   | 1 AV |
+ syllables d5059e 000 |   |   | 0 AV |
+ syllables f8d57d 002 |   |   | 0 AV |
 
 
 ## digits c5d8f9 003 jGenProg 
@@ -207,6 +251,23 @@
  		}
  		if ((((b.value) <= (a.value)) && ((a.value) <= (c.value))) || (((c.value) <= (a.value)) && ((a.value) <= (b.value)))) {
  			this.output += java.lang.String.format("%d is the median\n", a.value);
+
+
+```
+## smallest 88394f 002 jKali 
+
+```diff
+--- introclassJava\/smallest_88394fc0_002.java
++++ introclassJava\/smallest_88394fc0_002.java
+@@ -36,7 +36,7 @@
+ 		if ((b.value) > (c.value)) {
+ 			smallest.value = c.value;
+ 		}
+-		if ((c.value) > (d.value)) {
++		if (false) {
+ 			smallest.value = d.value;
+ 		}else
+ 			if ((a.value) > (d.value)) {
 
 
 ```
