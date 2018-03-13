@@ -20,7 +20,7 @@ for D in *; do
 		test -d "$d" || mkdir -p "$d" && cp -Rf target/astor/* "$d"
 
 		
-		cd $HOME/tdurieux/IntroClassJava-repair/results;
+		cd $HOME/build/tdurieux/IntroClassJava-repair/results;
 		git commit -m "results $BUG/${D}"
 		
 		cd cwd
